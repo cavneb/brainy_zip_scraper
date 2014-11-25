@@ -1,31 +1,8 @@
-# BrainyZipScraper
+# Brainy Zip Scraper
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'brainy_zip_scraper'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install brainy_zip_scraper
+Create a CSV of zip code data from BrainyZip.com
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/brainy_zip_scraper/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+    require 'brainy_zip_scraper'
+    BrainyZipScraper.to_csv("path/to/zip_codes.csv")
